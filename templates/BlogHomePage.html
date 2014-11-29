@@ -1,0 +1,26 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="/styles/MyBlogStyles.css">
+</head>
+<body>
+	{% extends "BlogBase.html" %}
+    {% block body %}
+		{% for blog in blogs %}
+			<div style="width: 100%; display: table;">
+			<div style="display: table-row">
+				<div style="width: 85%; display: table-cell;"> <a href="/blog/{{blog.key().id()}}"> <h1>{{ blog.subject }}</h1> </a> </div>
+				<div style="display: table-cell;" align="right"> 				
+				{{ blog.created.date().strftime("%b %d, %Y") }} </div>
+			</div>			
+		</div>
+		<div>
+			{{ blog.content }}
+		</div>
+		<hr>
+		{% endfor %}
+		<div>
+			<label>
+				<h6>Queried {{timediff}} seconds ago</h6>
+			</label>
+		</div>
+	{% endblock %}
+</body>
