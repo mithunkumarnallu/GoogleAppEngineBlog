@@ -21,6 +21,6 @@ The json query urls are "&lt;YOUR_APP&gt;/blog/.json" to view all blogs data in 
 Extendability
 ===================
 There is also a user sign up and login features I developed but not integrated with the blogging system. One can extend this user creation to the blogs feature thereby keeping track of what users posted what.
-A working Sign up page is available at <YOUR_APP>/blog/signup and login is available at <YOUR_APP>/blog/login
+A working Sign up page is available at "&lt;YOUR_APP&gt;/blog/signup" and login is available at "&lt;YOUR_APP&gt;/blog/login"
 
 Good luck!
