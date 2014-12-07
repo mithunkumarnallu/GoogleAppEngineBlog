@@ -9,13 +9,13 @@ You can see the live working version of it at "mithunnallu-webdev.appspot.com/bl
 
 Usage
 ===================
-You can deploy this as a Google App Engine application and this blog resides at <YOUR_APP>/blog.
+You can deploy this as a Google App Engine application and this blog resides at "&lt;YOUR_APP&gt;/blog."
 The homepage of this blog shows the top 10 latest blogs posted
-You can add a new blog by visiting <YOUR_APP>/blog/newpost
+You can add a new blog by visiting "&lt;YOUR_APP&gt;/blog/newpost"
 You can click on any blog entry to visit its details page where I recently integrated with disqus to facilitate commenting
 
 This blog also supports returning data in json format for someone to query and use.
-The json query urls are "<YOUR_APP>/blog/.json" to view all blogs data in json format and "<YOUR_APP>/blog/<BLOG_ID>.json" to get the json data of this particular blogid in json
+The json query urls are "&lt;YOUR_APP&gt;/blog/.json" to view all blogs data in json format and "&lt;YOUR_APP&gt;/blog/&lt;BLOG_ID&gt;.json" to get the json data of this particular blogid in json
 
 
 Extendability
